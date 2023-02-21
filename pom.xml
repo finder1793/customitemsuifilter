@@ -57,7 +57,11 @@
         <id>phoenix</id>
         <url>https://nexus.phoenixdevt.fr/repository/maven-public/</url>
     </repository>
-
+    <repository>
+        <id>nexus</id>
+        <name>Lumine Releases</name>
+        <url>https://mvn.lumine.io/repository/maven-public/</url>
+    </repository>
 	</repositories>
 
   <dependencies>
@@ -74,11 +78,10 @@
         <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.lumine</groupId>
-      <artifactId>Mythic-Dist</artifactId>
-      <version>5.1.2</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/libs/Mythic-Dist-5.1.2.jar</systemPath>
+        <groupId>io.lumine</groupId>
+        <artifactId>Mythic-Dist</artifactId>
+        <version>5.2.1</version>  
+        <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>io.th0rgal.oraxen.OraxenPlugin</groupId>

@@ -1,14 +1,10 @@
 package me.apatuka.OraxenUIFilter.Hooks;
 
 import io.lumine.mythic.lib.api.crafting.uifilters.UIFilter;
-import io.th0rgal.oraxen.items.OraxenItems;
+import io.th0rgal.oraxen.api.OraxenItems;
 import io.th0rgal.oraxen.items.ItemBuilder;
 
-import io.lumine.mythic.bukkit.MythicBukkit;
-import io.lumine.mythic.bukkit.adapters.BukkitItemStack;
-import io.lumine.mythic.core.items.MythicItem;
 import io.lumine.mythic.lib.api.crafting.uimanager.UIFilterManager;
-import io.lumine.mythic.lib.api.item.NBTItem;
 import io.lumine.mythic.lib.api.util.ItemFactory;
 import io.lumine.mythic.lib.api.util.ui.FriendlyFeedbackCategory;
 import io.lumine.mythic.lib.api.util.ui.FriendlyFeedbackProvider;
@@ -23,11 +19,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Optional;
 
-/**
- *  The filter to match a mythicmobs item.
- *
- *  @author Gunging
- */
 public class OraxenUIFilterHook implements UIFilter {
     @NotNull @Override public String getIdentifier() { return "ox"; }
 

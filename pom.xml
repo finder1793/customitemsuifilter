@@ -83,20 +83,40 @@
         <version>5.2.1</version>  
         <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>io.th0rgal.oraxen.OraxenPlugin</groupId>
-      <artifactId>Oraxen</artifactId>
-      <version>1.139.1</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/libs/oraxen-1.139.1.jar</systemPath>
-    </dependency>    
-  <dependency>
-      <groupId>io.lumine</groupId>
-      <artifactId>MythicLib-dist</artifactId>
-      <version>1.5.1-SNAPSHOT</version>
-      <scope>provided</scope>
-      <optional>true</optional>
-  </dependency>
+      <dependency>
+          <groupId>com.github.oraxen</groupId>
+          <artifactId>oraxen</artifactId>
+          <version>1.155.4</version>
+          <scope>provided</scope>
+          <exclusions>
+              <exclusion>
+                  <groupId>gs.mclo</groupId>
+                  <artifactId>mclogs</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>com.ticxo.playeranimator</groupId>
+                  <artifactId>PlayerAnimator</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>me.gabytm.util</groupId>
+                  <artifactId>actions-spigot</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>net.kyori</groupId>
+                  <artifactId>*</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>com.jeff_media</groupId>
+                  <artifactId>*</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>io.lumine</groupId>
+          <artifactId>MythicLib-dist</artifactId>
+          <version>1.6-SNAPSHOT</version>
+          <scope>provided</scope>
+      </dependency>
   <dependency>
       <groupId>net.Indyuce</groupId>
       <artifactId>MMOItems-API</artifactId>

@@ -32,14 +32,14 @@ public class OraxenUIFilter extends JavaPlugin {
 				MMOItems.plugin.getRecipes().reload();
 				MMOItems.plugin.getLanguage().reload();
 				MMOItems.plugin.getDropTables().reload();
-				MMOItems.plugin.getTypes().reload();
+				MMOItems.plugin.getTypes().reload(isEnabled());
 				MMOItems.plugin.getTiers().reload();
 				MMOItems.plugin.getSets().reload();
 				MMOItems.plugin.getUpgrades().reload();
 				MMOItems.plugin.getWorldGen().reload();
 				MMOItems.plugin.getCustomBlocks().reload();
 				MMOItems.plugin.getLayouts().reload();
-				MMOItems.plugin.getFormats().reload();
+				MMOItems.plugin.getLore().reload();
 				MMOItems.plugin.getTemplates().reload();
 				MMOItems.plugin.getLayouts().reload();
 				MMOItems.plugin.getCrafting().reload();
@@ -47,7 +47,7 @@ public class OraxenUIFilter extends JavaPlugin {
 
 			getCommand("uimanager").setExecutor(new Commands());
 		} else {
-			getLogger().log(Level.ERROR, "MythicLib not found, disabling plugin ...");
+			getLogger().log(Level.WARNING, "MythicLib not found, disabling plugin ...");
 			onDisable();
 		}
 

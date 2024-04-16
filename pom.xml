@@ -46,8 +46,8 @@
       <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
     <repository>
-      <id>papermc</id>
-      <url>https://papermc.io/repo/repository/maven-public/</url>
+        <id>papermc</id>
+        <url>https://papermc.io/repo/repository/maven-public/</url>
     </repository>
     <repository>
       <id>dmulloy2-repo</id>
@@ -66,11 +66,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.16.3-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency> 
+        <groupId>org.spigotmc</groupId>
+        <artifactId>spigot-api</artifactId>
+        <version>1.20.4-R0.1-SNAPSHOT</version>
+        <scope>provided</scope>
+    </dependency>
     <dependency>
         <groupId>io.papermc</groupId>
         <artifactId>paperlib</artifactId>
@@ -80,7 +80,7 @@
     <dependency>
         <groupId>io.lumine</groupId>
         <artifactId>Mythic-Dist</artifactId>
-        <version>5.2.1</version>  
+        <version>5.6.1</version>  
         <scope>provided</scope>
     </dependency>
       <dependency>
@@ -114,19 +114,19 @@
       <dependency>
           <groupId>io.lumine</groupId>
           <artifactId>MythicLib-dist</artifactId>
-          <version>1.6-SNAPSHOT</version>
+          <version>1.6.2-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
   <dependency>
       <groupId>net.Indyuce</groupId>
       <artifactId>MMOItems-API</artifactId>
-      <version>6.9.2-SNAPSHOT</version>
+      <version>6.10-SNAPSHOT</version>
       <scope>provided</scope>
   </dependency>
       <dependency>
           <groupId>com.github.LoneDev6</groupId>
           <artifactId>api-itemsadder</artifactId>
-          <version>3.2.5</version>
+          <version>3.6.1</version>
       </dependency>
   </dependencies>
 </project>

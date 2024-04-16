@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.apatuka.OraxenUIFilter</groupId>
 	<artifactId>OraxenUIFilter</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<name>OraxenUIFilter</name>
 	<description>OraxenUIFilter</description>
 	<build>

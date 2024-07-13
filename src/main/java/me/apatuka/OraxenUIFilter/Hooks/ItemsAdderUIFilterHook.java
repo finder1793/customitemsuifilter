@@ -2,13 +2,13 @@ package me.apatuka.OraxenUIFilter.Hooks;
 
 import dev.lone.itemsadder.api.CustomStack;
 import io.lumine.mythic.lib.api.crafting.uifilters.UIFilter;
-import dev.lone.itemsadder.api.ItemsAdder;
+// import dev.lone.itemsadder.api.ItemsAdder;
 
-import io.lumine.mythic.bukkit.MythicBukkit;
-import io.lumine.mythic.bukkit.adapters.BukkitItemStack;
-import io.lumine.mythic.core.items.MythicItem;
+// import io.lumine.mythic.bukkit.MythicBukkit;
+// import io.lumine.mythic.bukkit.adapters.BukkitItemStack;
+// import io.lumine.mythic.core.items.MythicItem;
 import io.lumine.mythic.lib.api.crafting.uimanager.UIFilterManager;
-import io.lumine.mythic.lib.api.item.NBTItem;
+// import io.lumine.mythic.lib.api.item.NBTItem;
 import io.lumine.mythic.lib.api.util.ItemFactory;
 import io.lumine.mythic.lib.api.util.ui.FriendlyFeedbackCategory;
 import io.lumine.mythic.lib.api.util.ui.FriendlyFeedbackProvider;
@@ -20,8 +20,8 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Optional;
+// import java.util.Arrays;
+// import java.util.Optional;
 
 /**
  *  The filter to match a mythicmobs item.

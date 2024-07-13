@@ -80,21 +80,25 @@
     <dependency>
         <groupId>io.lumine</groupId>
         <artifactId>Mythic-Dist</artifactId>
-        <version>5.2.1</version>  
+        <version>5.7.0-SNAPSHOT</version>
         <scope>provided</scope>
     </dependency>
       <dependency>
           <groupId>com.github.oraxen</groupId>
           <artifactId>oraxen</artifactId>
-          <version>1.155.4</version>
+          <version>1.173.0</version>
           <scope>provided</scope>
           <exclusions>
+              <exclusion>
+                  <groupId>io.th0rgal</groupId>
+                  <artifactId>protectionlib</artifactId>
+              </exclusion>
               <exclusion>
                   <groupId>gs.mclo</groupId>
                   <artifactId>mclogs</artifactId>
               </exclusion>
               <exclusion>
-                  <groupId>com.ticxo.playeranimator</groupId>
+                  <groupId>com.ticxo</groupId>
                   <artifactId>PlayerAnimator</artifactId>
               </exclusion>
               <exclusion>
@@ -114,19 +118,20 @@
       <dependency>
           <groupId>io.lumine</groupId>
           <artifactId>MythicLib-dist</artifactId>
-          <version>1.6-SNAPSHOT</version>
+          <version>1.6.2-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
   <dependency>
       <groupId>net.Indyuce</groupId>
       <artifactId>MMOItems-API</artifactId>
-      <version>6.9.2-SNAPSHOT</version>
+      <version>6.10-SNAPSHOT</version>
       <scope>provided</scope>
   </dependency>
       <dependency>
           <groupId>com.github.LoneDev6</groupId>
-          <artifactId>api-itemsadder</artifactId>
-          <version>3.2.5</version>
+          <artifactId>API-ItemsAdder</artifactId>
+          <version>3.6.1</version>
+          <scope>provided</scope>
       </dependency>
   </dependencies>
 </project>

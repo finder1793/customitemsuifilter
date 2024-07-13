@@ -33,7 +33,7 @@ public class OraxenUIFilter extends JavaPlugin {
 
 				MMOItems.plugin.getLanguage().reload();
 				MMOItems.plugin.getDropTables().reload();
-				MMOItems.plugin.getTypes().reload(true);
+				MMOItems.plugin.getTypes().reload(isEnabled());
 				MMOItems.plugin.getTiers().reload();
 				MMOItems.plugin.getSets().reload();
 				MMOItems.plugin.getUpgrades().reload();

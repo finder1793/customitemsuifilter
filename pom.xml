@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.apatuka.OraxenUIFilter</groupId>
 	<artifactId>OraxenUIFilter</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<name>OraxenUIFilter</name>
 	<description>OraxenUIFilter</description>
 	<build>
@@ -46,8 +46,8 @@
       <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
     <repository>
-      <id>papermc</id>
-      <url>https://papermc.io/repo/repository/maven-public/</url>
+        <id>papermc</id>
+        <url>https://papermc.io/repo/repository/maven-public/</url>
     </repository>
     <repository>
       <id>dmulloy2-repo</id>
@@ -66,11 +66,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.16.3-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency> 
+        <groupId>org.spigotmc</groupId>
+        <artifactId>spigot-api</artifactId>
+        <version>1.20.4-R0.1-SNAPSHOT</version>
+        <scope>provided</scope>
+    </dependency>
     <dependency>
         <groupId>io.papermc</groupId>
         <artifactId>paperlib</artifactId>
@@ -129,7 +129,7 @@
   </dependency>
       <dependency>
           <groupId>com.github.LoneDev6</groupId>
-          <artifactId>API-ItemsAdder</artifactId>
+          <artifactId>api-itemsadder</artifactId>
           <version>3.6.1</version>
           <scope>provided</scope>
       </dependency>

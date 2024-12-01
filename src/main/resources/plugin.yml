@@ -9,8 +9,9 @@ depend:
 softdepend:
   - Oraxen
   - ItemsAdder
+  - Nexo
 commands:
   uimanager:
-    permission: oraxenuifilter.access
+    permission: CustomitemUIfilter.access
     description: UIFilter
     aliases: []

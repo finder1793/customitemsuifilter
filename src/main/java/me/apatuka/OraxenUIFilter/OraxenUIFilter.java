@@ -28,7 +28,10 @@ public class OraxenUIFilter extends JavaPlugin {
 					getLogger().log(Level.INFO, "ItemsAdder detected. Hooking with ItemsAdder");
 					ItemsAdderUIFilterHook.register();
 				}
-
+				if (Bukkit.getPluginManager().isPluginEnabled("Nexo")) {
+					getLogger().log(Level.INFO, "Nexo detected. Hooking with Nexo");
+					NexoUIFilterHook.register();
+				}
 				getLogger().log(Level.INFO, "MMOItems detected, reloading config files...");
 
 				MMOItems.plugin.getLanguage().reload();

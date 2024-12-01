@@ -1,4 +1,4 @@
-package me.apatuka.NexoUIFilter.Hooks;
+package me.apatuka.OraxenUIFilter.Hooks;
 
 import io.lumine.mythic.lib.api.crafting.uifilters.UIFilter;
 import com.nexomc.nexo.api.NexoItems;

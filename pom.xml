@@ -62,6 +62,15 @@
         <name>Lumine Releases</name>
         <url>https://mvn.lumine.io/repository/maven-public/</url>
     </repository>
+    <repository>
+        <id>nexo</id>
+        <name>Reposilite Repository</name>
+        <url>https://repo.nexomc.com/snapshots</url>
+    </repository>
+    <repository>
+        <id>byteflux-releases</id>
+        <url>https://repo.byteflux.net/repository/maven-releases/</url>
+    </repository>
 	</repositories>
 
   <dependencies>
@@ -133,11 +142,18 @@
           <version>3.6.1</version>
           <scope>provided</scope>
       </dependency>
-      <dependency>
-          <groupId>com.nexomc</groupId>
-          <artifactId>nexo</artifactId>
-          <version>0.1.0</version>
-          <scope>provided</scope>
-      </dependency>
+  <dependency>
+      <groupId>com.nexomc</groupId>
+      <artifactId>nexo</artifactId>
+      <version>0.1.0-dev.0</version>
+      <classifier>dev</classifier>
+      <scope>provided</scope>
+      <exclusions>
+          <exclusion>
+              <groupId>*</groupId>
+              <artifactId>*</artifactId>
+          </exclusion>
+      </exclusions>
+  </dependency>
   </dependencies>
 </project>
